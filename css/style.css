@@ -41,25 +41,10 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-  position: relative;
   text-align: center;
   padding: 4rem 2rem;
-  
-  /* 
-     1) Gradient overlay 
-     2) The new dream-bg.png image behind it
-  */
-  background:
-    linear-gradient(
-      rgba(38, 29, 96, 0.3),
-      rgba(38, 29, 96, 0.6)
-    ),
-    url("../img/dream-bg.png") center/cover no-repeat;
-  
+  background: linear-gradient(to right, #c8e3f3, #e7ddfb);
   border-radius: 0 0 40px 40px;
-
-  /* Make text white for contrast */
-  color: #ffffff;
 }
 
 .hero h1 {
