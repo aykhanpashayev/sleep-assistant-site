@@ -210,6 +210,15 @@ nav a.active {
   margin-bottom: 0.5rem;
 }
 
+/* Personas Page Images */
+.persona-card img.persona-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 /* ================================
    9) FOOTER
 ================================= */
@@ -232,6 +241,6 @@ footer {
 
   .feature-card,
   .persona-card {
-    width: 90%; /* or an appropriate mobile-friendly width */
+    width: 90%;
   }
 }
